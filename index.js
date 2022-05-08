@@ -63,3 +63,12 @@ function deleted(itemIndex) {
     update();
 }
 
+
+function clearlst(){
+    if (confirm("Do you want to Clear List")){
+    localStorage.clear();
+    console.log("List Cleared!!!!")
+    update();
+};
+};
+
