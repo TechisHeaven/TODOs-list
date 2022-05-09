@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
 }
@@ -118,7 +118,10 @@ thead tr {
     background-color: #dddddd;
 }
 @media  screen and (max-width:480px) {
-   
+   body{
+    width: 100vw; /* viewport width */
+    height: 100vh;
+   }
     .container {
         width: 100%;
         display: flex;
