@@ -93,12 +93,7 @@ button:hover {
     background-color: rgb(8, 42, 236);
 }
 
-.buttons{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-}
+
 
 small {
     text-transform: capitalize;
@@ -123,8 +118,7 @@ thead tr {
     background-color: #dddddd;
 }
 @media  screen and (max-width:480px) {
-    
-
+   
     .container {
         width: 100%;
         display: flex;
@@ -140,13 +134,11 @@ thead tr {
     }
 
     .formgroup input {
-        justify-content: center;
-        align-items: center;
+        
         width: 350px;
     }
 
     .formgroup textarea {
-
         width: 350px;
     }
 
@@ -163,9 +155,14 @@ thead tr {
     .table {
         justify-content: center;
         align-items: center;
-        width: 350px;
+        width: 390px;
 
     }
-    
+    .buttons{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
 
 }
